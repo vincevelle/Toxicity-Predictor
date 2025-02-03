@@ -1,12 +1,8 @@
-# Toxicity-Predictor
-
-Overview
+# Overview
 
 This project uses DeepChem to predict molecular toxicity based on the Tox21 dataset, a benchmark dataset for toxicity prediction in drug discovery. The model is built using Graph Convolutional Neural Networks (GCNNs), allowing for graph-based molecular representations.
 
-Features
-
-✅ Current Features
+# Features
 
 Graph Neural Network (GCNN) for toxicity prediction
 
@@ -20,7 +16,7 @@ DeepChem's GraphConv Featurizer & Model
 
 Model evaluation with ROC-AUC and PR-AUC metrics
 
-🚧 Features in Progress
+# Features in Progress
 
 Interactive UI (Streamlit/Web App) for real-time predictions
 
@@ -36,22 +32,21 @@ Ensure you have Python 3.10+ and install the dependencies:
 python -m venv tox21_env
 source tox21_env/bin/activate  # On Windows use: tox21_env\Scripts\activate
 
-# Install dependencies
 pip install -r requirements.txt
 
-Usage
+# Usage
 
 Run the script to train the model and generate visualizations:
 
 python tox21_deepchem.py
 
-Dataset
+# Dataset
 
 The Tox21 dataset contains molecules labeled as toxic or non-toxic for 12 different biological assays related to drug toxicity.
 
 The dataset is automatically downloaded and processed by DeepChem.
 
-Model Training
+# Model Training
 
 The model is trained using DeepChem’s GraphConvModel with the following fixed hyperparameters:
 
@@ -63,7 +58,7 @@ Batch Size: 32
 
 Epochs: 50
 
-Model Evaluation
+# Model Evaluation
 
 The model is evaluated using two key classification metrics:
 
@@ -77,7 +72,7 @@ Training ROC-AUC: 0.85, PR-AUC: 0.62
 Validation ROC-AUC: 0.82, PR-AUC: 0.58
 Test ROC-AUC: 0.81, PR-AUC: 0.55
 
-Visualizations
+# Visualizations
 
 Toxicity Distribution
 
@@ -85,22 +80,10 @@ Histograms show the distribution of toxic vs. non-toxic molecules for each biolo
 
 Helps understand dataset balance and class distributions.
 
-Sample Molecule Representation
+# Sample Molecule Representation
 
 Randomly selects a molecule and visualizes its 2D structure.
 
 Can be extended to highlight important molecular features.
-
-Future Work
-
-🔹 Deploy an Interactive Web App (via Streamlit/Vercel for easy accessibility)🔹 Optimize model parameters using Bayesian Optimization🔹 Integrate Feature Importance Analysis for model interpretability
-
-Contributions
-
-Pull requests and suggestions are welcome! If you'd like to contribute, please fork the repository and submit a PR.
-
-License
-
-This project is open-source and available under the MIT License.
 
 
