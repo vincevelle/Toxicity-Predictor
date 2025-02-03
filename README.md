@@ -28,17 +28,17 @@ Basic features:
 
 Ensure you have Python 3.10+ and install the dependencies:
 
-Create a virtual environment
+* Create a virtual environment
   python -m venv tox21_env
   source tox21_env/bin/activate  # On Windows use: tox21_env\Scripts\activate
 
-pip install -r requirements.txt
+* pip install -r requirements.txt
 
 # Usage
 
 Run the script to train the model and generate visualizations:
 
-python tox21_deepchem.py
+* python tox21_deepchem.py
 
 # Dataset
 
