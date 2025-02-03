@@ -46,6 +46,8 @@ The Tox21 dataset contains molecules labeled as toxic or non-toxic for 12 differ
 
 The dataset is automatically downloaded and processed by DeepChem.
 
+For more information on Tox21, see : https://tox21.gov/wp-content/uploads/2024/02/Tox21_FactSheet_Jan2023.pdf
+
 # Model Training
 
 The model is trained using DeepChem’s GraphConvModel with the following fixed hyperparameters:
