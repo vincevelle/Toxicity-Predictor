@@ -8,13 +8,13 @@ Graph Neural Network (GCNN) for toxicity prediction
 
 Basic visualizations:
 
-Toxicity distribution histograms
+  Toxicity distribution histograms
 
-Sample molecular structure visualization
+  Sample molecular structure visualization
 
-DeepChem's GraphConv Featurizer & Model
+  DeepChem's GraphConv Featurizer & Model
 
-Model evaluation with ROC-AUC and PR-AUC metrics
+  Model evaluation with ROC-AUC and PR-AUC metrics
 
 # Features in Progress
 
@@ -24,13 +24,13 @@ Hyperparameter Optimization (Gaussian Process Optimization)
 
 Enhanced visualizations with feature importance and interactivity
 
-Installation
+# Installation
 
 Ensure you have Python 3.10+ and install the dependencies:
 
-# Create a virtual environment (recommended)
-python -m venv tox21_env
-source tox21_env/bin/activate  # On Windows use: tox21_env\Scripts\activate
+Create a virtual environment
+  python -m venv tox21_env
+  source tox21_env/bin/activate  # On Windows use: tox21_env\Scripts\activate
 
 pip install -r requirements.txt
 
