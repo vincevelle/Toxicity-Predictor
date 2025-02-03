@@ -8,21 +8,21 @@ Graph Neural Network (GCNN) for toxicity prediction
 
 Basic visualizations:
 
-  Toxicity distribution histograms
+  * Toxicity distribution histograms
 
-  Sample molecular structure visualization
+  * Sample molecular structure visualization
 
-  DeepChem's GraphConv Featurizer & Model
+  * DeepChem's GraphConv Featurizer & Model
 
-  Model evaluation with ROC-AUC and PR-AUC metrics
+  * Model evaluation with ROC-AUC and PR-AUC metrics
 
 # Features in Progress
 
-Interactive UI (Streamlit/Web App) for real-time predictions
+* Interactive UI (Streamlit/Web App) for real-time predictions
 
-Hyperparameter Optimization (Gaussian Process Optimization)
+* Hyperparameter Optimization (Gaussian Process Optimization)
 
-Enhanced visualizations with feature importance and interactivity
+* Enhanced visualizations with feature importance and interactivity
 
 # Installation
 
