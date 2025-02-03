@@ -6,7 +6,7 @@ This project uses DeepChem to predict molecular toxicity based on the Tox21 data
 
 Graph Neural Network (GCNN) for toxicity prediction
 
-Basic visualizations:
+Basic features:
 
   * Toxicity distribution histograms
 
